@@ -1,0 +1,30 @@
+# ===== Core App Framework =====
+streamlit>=1.38.0             # Builds the web UI (upload PDFs, chat, etc.)
+
+# ===== LangChain (orchestration framework) =====
+langchain>=1.3.0               # Core LangChain library - chains, prompts, memory
+langchain-text-splitters>=0.3.5 # Text chunking utilities (separate package as of LangChain 1.x)
+langchain-community>=0.3.20    # Community integrations (PDF loaders, Chroma, etc.)
+langchain-google-genai>=4.2.0  # Official LangChain <-> Google Gemini connector
+                                # (v4.0.0+ runs on Google's new unified "google-genai"
+                                # SDK, not the old deprecated "google-generativeai" one)
+
+# ===== Google Gemini SDK =====
+google-genai>=2.9.0            # Google's current official SDK (replaces the
+                                # deprecated "google-generativeai" package)
+
+# ===== Vector Database =====
+chromadb>=1.3.5                # Local vector database for storing embeddings
+langchain-chroma>=1.1.0        # LangChain <-> ChromaDB integration (separate package)
+
+# ===== PDF Processing =====
+pypdf>=5.0.1                   # Extracts raw text from PDF files
+
+# ===== Embeddings (optional local alternative to Gemini embeddings) =====
+sentence-transformers>=3.2.1   # Local embedding model (works offline, no API cost)
+
+# ===== Environment Variables =====
+python-dotenv>=1.0.1            # Loads API keys from .env file safely
+
+# ===== Utilities =====
+tiktoken>=0.8.0                  # Token counting, useful for chunking decisions

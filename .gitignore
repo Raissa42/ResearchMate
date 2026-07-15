@@ -1,0 +1,15 @@
+# Environment variables - NEVER commit your real API key
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# ChromaDB persisted data - regenerated from PDFs, don't need to commit
+vectorstore/chroma_db/
+
+# OS/editor files
+.DS_Store
+.vscode/
+*.log

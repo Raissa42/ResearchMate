@@ -13,7 +13,6 @@ HOW THE ROUTING DECISION WORKS (rule-based, for now)
 We use simple KEYWORD matching to detect intent. This is:
     - Free (no extra API call)
     - Instant
-    - Easy to explain and defend in a viva
     - Good enough for clearly-phrased requests
 
 A more advanced version could ask Gemini itself to classify intent
@@ -186,7 +185,6 @@ def route_question(question: str, top_k: int = 4) -> dict:
 
 
 # -------------------------------------------------------------------
-# NOTE for your report/viva: an LLM-based classifier alternative
 # -------------------------------------------------------------------
 # Instead of (or in addition to) keyword matching, you could ask
 # Gemini itself to classify intent, e.g.:

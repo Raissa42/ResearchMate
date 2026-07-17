@@ -11,7 +11,7 @@ pipeline" that most of your app's questions will flow through.
 WHY WRAP THIS UP INSTEAD OF CALLING retriever.py + gemini_client.py
 DIRECTLY EVERYWHERE?
 -------------------------------------------------------------------------
-Without this file, every place in your app that wants to "ask a
+Without this file, every place in this app that wants to "ask a
 question about the documents" would need to:
     1. Import retriever.py
     2. Call retrieve_relevant_chunks()

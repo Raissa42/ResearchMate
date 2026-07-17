@@ -124,18 +124,8 @@ streamlit run app.py
 
 ## ☁️ Deployment
 
-Deployed on **Streamlit Community Cloud**: `researchmategit-gekb5nwfzlgicpr7p6azdc
-.streamlit.app`
+Deployed on **Streamlit Community Cloud**: `researchmategit-gekb5nwfzlgicpr7p6azdc.streamlit.app`
 
-To deploy your own copy:
-1. Push this repository to your own GitHub account
-2. Go to [share.streamlit.io](https://share.streamlit.io) and create a new app pointing to `app.py`
-3. In the app's **Secrets** settings, add:
-   ```toml
-   GOOGLE_API_KEY = "your_real_key_here"
-   ```
-
----
 
 ## 🎓 Academic Context
 

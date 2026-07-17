@@ -8,7 +8,7 @@ that's a separate model, from Phase 8) and define the PROMPT TEMPLATE
 that tells Gemini exactly how to behave as ResearchMate's answer engine.
 
 -------------------------------------------------------------------------
-WHY A PROMPT TEMPLATE MATTERS THIS MUCH FOR YOUR PROJECT
+WHY A PROMPT TEMPLATE MATTERS THIS MUCH FOR THIS PROJECT
 -------------------------------------------------------------------------
 Your project's core promise is: "answer ONLY from the uploaded documents,
 and NEVER hallucinate." Gemini doesn't know this by default - it will

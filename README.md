@@ -101,7 +101,7 @@ ResearchMate/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/ResearchMate.git
+git clone https://github.com/Raissa42/ResearchMate.git
 cd ResearchMate
 
 # 2. Create and activate a virtual environment
@@ -124,7 +124,8 @@ streamlit run app.py
 
 ## ☁️ Deployment
 
-Deployed on **Streamlit Community Cloud**: `[your deployed link here]`
+Deployed on **Streamlit Community Cloud**: `researchmategit-gekb5nwfzlgicpr7p6azdc
+.streamlit.app`
 
 To deploy your own copy:
 1. Push this repository to your own GitHub account
@@ -140,7 +141,7 @@ To deploy your own copy:
 
 Built as a final AI Engineering project, evolving from an earlier project (MindEase - a student mental health chatbot), applying the same Streamlit + Gemini foundations to a more advanced agentic RAG architecture.
 
-**Faculty Supervisor:** Harjeet Kaur
+**Faculty Supervisor:** Rohit Bharti
 
 ---
 
